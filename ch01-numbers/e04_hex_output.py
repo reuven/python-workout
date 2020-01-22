@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Ask the user for a hex number, and convert it to decimal"""
+"""Solution to chapter 1, exercise 4: hex_output"""
 
 
 def hex_output():
