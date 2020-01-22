@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-
+"""Solution to chapter 1, exercise 1: Guessing game
+"""
 import random
 
 
