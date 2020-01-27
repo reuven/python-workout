@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
+"""Solution to chapter 3, exercise 11: alphabetize_names"""
 
 import operator
+
 
 people = [{'first': 'Reuven', 'last': 'Lerner', 'email': 'reuven@lerner.co.il'},
           {'first': 'Donald', 'last': 'Trump', 'email': 'president@whitehouse.gov'},
@@ -8,5 +10,9 @@ people = [{'first': 'Reuven', 'last': 'Lerner', 'email': 'reuven@lerner.co.il'},
           ]
 
 
-for person in sorted(people, key=operator.itemgetter('last', 'first')):
-    print(f"{person['last']}, {person['first']}: {person['email']}")
+def alphabetize_names(list_of_dicts):
+    """Take a list of dicts describing people, each with first/last/email as keys.
+Return a new list of dicts, sorted first by last name and then by first name.
+If passed an empty list, then return an empty list.
+"""
+    return sorted(list_of_dicts, key=operator.itemgetter('last', 'first'))

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Solution to chapter 3, exercise 12: most_repeating_word"""
 
 from collections import Counter
 import operator
@@ -6,17 +7,20 @@ import operator
 words = ['this', 'is', 'an', 'elementary', 'test', 'example']
 
 
-def most_repeating_letter_count(word): < 1 >
-
-
-return Counter(word).most_common(1)[0][1] < 2 >
+def most_repeating_letter_count(word):
+    """Given a non-empty string, counts how many times each letter appears in the string,
+and returns an integer indicating how often the most common letter appears."""
+    return Counter(word).most_common(1)[0][1]
 
 
 def most_repeating_word(words):
+    """Given a list of non-empty strings (words),
+returns the word containing at least one letter that repeats 
+more often than any letter in any other word.
+
+Because sorting in Python is stable, if multiple words have
+the same count, then the first will be returned."""
     word_counts = {word: most_repeating_letter_count(word)
                    for word in words}
 
-    return max(word_counts.items(), key=operator.itemgetter(1))[0] < 3 >
-
-
-most_repeating_word(words)
+    return max(word_counts.items(), key=operator.itemgetter(1))[0]
