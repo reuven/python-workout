@@ -8,7 +8,6 @@ def test_no_input_generates_exception(monkeypatch, capsys):
 
     with pytest.raises(ZeroDivisionError):
         run_timing()
-        captured_out, captured_err = capsys.readouterr()
 
 
 def test_bad_input_generates_exception(monkeypatch, capsys):
@@ -16,7 +15,6 @@ def test_bad_input_generates_exception(monkeypatch, capsys):
 
     with pytest.raises(ValueError):
         run_timing()
-        captured_out, captured_err = capsys.readouterr()
 
 
 def test_one_run(monkeypatch, capsys):
