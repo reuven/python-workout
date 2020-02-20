@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Solution to chapter 5, exercise 24: reverse_lines"""
 
 
 infilename = 'input.txt'

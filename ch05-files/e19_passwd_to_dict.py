@@ -1,12 +1,17 @@
 #!/usr/bin/env python3
+"""Solution to chapter 5, exercise 19: passwd_to_dict"""
 
 
-users = {}
-with open('/etc/passwd') as f:
-    for line in f:
-        if not line.startswith("#") and line.strip():
-            user_info = line.split(":")
-            users[user_info[0]] = user_info[2]
-
-for username, user_id in sorted(users.items()):
-    print(f"{username}: {user_id}")
+def passwd_to_dict(filename):
+    """Expects to get a string argument, the name of a file in passwd format.
+Returns a dictionary in which the keys are the usernames from the file,
+and the values are the user IDs from the file.  The user IDs should be
+returned as integers.
+"""
+    users = {}
+    with open(filename) as f:
+        for line in f:
+            if not line.startswith("#") and line.strip():
+                user_info = line.split(":")
+                users[user_info[0]] = int(user_info[2])
+    return users

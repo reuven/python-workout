@@ -4,21 +4,21 @@ import pytest
 
 
 def test_no_input_generates_exception(monkeypatch, capsys):
-    monkeypatch.setattr('sys.stdin', StringIO('q\n'))
+    monkeypatch.setattr('sys.stdin', StringIO('\n'))
 
     with pytest.raises(ZeroDivisionError):
         run_timing()
 
 
 def test_bad_input_generates_exception(monkeypatch, capsys):
-    monkeypatch.setattr('sys.stdin', StringIO('abc\nq\n'))
+    monkeypatch.setattr('sys.stdin', StringIO('abc\n\n'))
 
     with pytest.raises(ValueError):
         run_timing()
 
 
 def test_one_run(monkeypatch, capsys):
-    monkeypatch.setattr('sys.stdin', StringIO('1\nq\n'))
+    monkeypatch.setattr('sys.stdin', StringIO('1\n\n'))
 
     run_timing()
     captured_out, captured_err = capsys.readouterr()
@@ -28,7 +28,7 @@ def test_one_run(monkeypatch, capsys):
 
 def test_10_runs(monkeypatch, capsys):
     monkeypatch.setattr('sys.stdin', StringIO(
-        '1\n2\n3\n4\n5\n6\n7\n8\n9\n10\nq\n'))
+        '1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n\n'))
 
     run_timing()
     captured_out, captured_err = capsys.readouterr()

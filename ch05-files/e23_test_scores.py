@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Solution to chapter 5, exercise 23: test_scores"""
 
 import json
 import glob
