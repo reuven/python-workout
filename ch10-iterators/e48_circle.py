@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 
+"""Solution to chapter 10, exercise 48: circle"""
+
 
 class CircleIterator():
+    """Iterator for Circle."""
+
     def __init__(self, data, max_times):
         self.data = data
         self.max_times = max_times
@@ -16,6 +20,9 @@ class CircleIterator():
 
 
 class Circle():
+    """Class that produces an iterator, which repeatedly cycles
+through the elements of an iterator until returning max_times
+items. """
 
     def __init__(self, data, max_times):
         self.data = data
@@ -23,7 +30,3 @@ class Circle():
 
     def __iter__(self):
         return CircleIterator(self.data, self.max_times)
-
-
-c = Circle('abc', 5)
-print(list(c))        # prints a, b, c, a, b

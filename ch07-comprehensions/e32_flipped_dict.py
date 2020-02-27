@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 
+"""Solution to chapter 7, exercise 32: flipped_dict"""
 
-d = {'a': 1, 'b': 2, 'c': 3}
-flipped_d = {value: key
-             for key, value in d.items()}
-print(flipped_d)
+
+def flipped_dict(a_dict):
+    """Gets a dict as an argument.
+Returns a dict as output. The output dict's keys
+are the input dict's values, and vice versa.
+"""
+    return {value: key
+            for key, value in a_dict.items()}

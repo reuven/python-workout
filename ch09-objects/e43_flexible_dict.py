@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 
+"""Solution to chapter 9, exercise 43: flexible dict"""
+
 
 class FlexibleDict(dict):
+    """Dict that lets you use a string or int somewhat interchangeably."""
+
     def __getitem__(self, key):
         try:
             if key in self:
@@ -14,18 +18,3 @@ class FlexibleDict(dict):
             pass
 
         return dict.__getitem__(self, key)
-
-
-fd = FlexibleDict()
-
-fd['a'] = 100
-print(fd['a'])
-
-fd[5] = 500
-print(fd[5])
-
-fd[1] = 100
-print(fd['1'])
-
-fd['1'] = 100
-print(fd[1])
