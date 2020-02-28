@@ -10,8 +10,5 @@ import pytest
     ('elephant', 'elephantway'),
     ('octopus', 'octopusway'),
     ('insightful', 'insightfulway')])
-def test_simple(input_word, output_word, monkeypatch, capsys):
-    monkeypatch.setattr('sys.stdin', StringIO(f'{input_word}\n'))
-    pig_latin()
-    captured_out, captured_err = capsys.readouterr()
-    assert captured_out.endswith(f'{output_word}\n')
+def test_simple(input_word, output_word):
+    assert pig_latin(input_word) == output_word

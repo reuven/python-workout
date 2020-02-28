@@ -2,13 +2,12 @@
 """Solution to chapter 2, exercise 5: pig_latin"""
 
 
-def pig_latin():
-    """Ask the user for a lowercase, unpunctuated word,
-and print the translation into Pig Latin.
+def pig_latin(word):
+    """Translates a word into Pig Latin.
+The "word" parameter is assumed to be an
+English word, returned as a string.
 """
-    word = input("Enter a word: ")
-
     if word[0] in 'aeiou':
-        print(f'{word}way')
-    else:
-        print(f'{word[1:]}{word[0]}ay')
+        return f'{word}way'
+
+    return f'{word[1:]}{word[0]}ay'

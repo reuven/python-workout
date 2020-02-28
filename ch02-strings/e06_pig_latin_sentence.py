@@ -2,12 +2,11 @@
 """Solution to chapter 2, exercise 6: pl_sentence"""
 
 
-def pl_sentence():
-    """Ask the user to enter lowercase, unpuncutated words.
-Print the sentence, translated into Pig Latin.
+def pl_sentence(sentence):
+    """Get a sentence from the user, containing
+lowercase, unpuncutated words. Return the
+sentence, translated into Pig Latin.
 """
-    sentence = input("Enter a sentence: ")
-
     output = []
     for word in sentence.split():
         if word[0] in 'aeiou':
@@ -15,4 +14,4 @@ Print the sentence, translated into Pig Latin.
         else:
             output.append(f"{word[1:]}{word[0]}ay")
 
-    print(' '.join(output))
+    return ' '.join(output)

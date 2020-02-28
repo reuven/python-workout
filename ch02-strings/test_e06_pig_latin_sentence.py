@@ -8,8 +8,5 @@ import pytest
     ('elephant', 'elephantway'),
     ('this is a test', 'histay isway away esttay'),
     ('python is the best language ever', 'ythonpay isway hetay estbay anguagelay everway')])
-def test_simple(input_words, output_words, monkeypatch, capsys):
-    monkeypatch.setattr('sys.stdin', StringIO(f'{input_words}\n'))
-    pl_sentence()
-    captured_out, captured_err = capsys.readouterr()
-    assert captured_out.endswith(f'{output_words}\n')
+def test_simple(input_words, output_words):
+    assert pl_sentence(input_words) == output_words
