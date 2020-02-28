@@ -1,4 +1,4 @@
-from e13_tuple_records import format_sort_records, people
+from e13_tuple_records import format_sort_records, PEOPLE
 
 
 def test_empty():
@@ -6,7 +6,7 @@ def test_empty():
 
 
 def test_with_people():
-    output = format_sort_records(people)
+    output = format_sort_records(PEOPLE)
     assert isinstance(output, list)
     assert all(isinstance(x, str) for x in output)
 

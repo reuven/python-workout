@@ -1,4 +1,4 @@
-from e12_most_repeating_letters import most_repeating_letter_count, most_repeating_word, words
+from e12_most_repeating_letters import most_repeating_letter_count, most_repeating_word, WORDS
 import pytest
 
 
@@ -13,7 +13,7 @@ def test_most_repeating_letter_count(one_word, count):
 
 
 @pytest.mark.parametrize('list_of_words, one_word', [
-    (words, 'elementary'),
+    (WORDS, 'elementary'),
     ('hello out there'.split(), 'hello'),
     ('there out hello'.split(), 'there')
 ])

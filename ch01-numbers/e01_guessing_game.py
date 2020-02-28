@@ -18,8 +18,8 @@ Until they guess correctly, tell them to guess higher or lower.
             print(f"Right!  The answer is {user_guess}")
             break
 
-        elif user_guess < answer:
+        if user_guess < answer:
             print(f"Your guess of {user_guess} is too low!")
 
-        elif user_guess > answer:
+        else:
             print(f"Your guess of {user_guess} is too high!")

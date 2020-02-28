@@ -3,7 +3,8 @@
 
 
 def mysum(*numbers):
-    """Accepts any number of numeric arguments as inputs. Returns the sum of those numbers.
+    """Accepts any number of numeric arguments as inputs.
+Returns the sum of those numbers.
 If invoked without any arguments, returns 0.
 """
     output = 0

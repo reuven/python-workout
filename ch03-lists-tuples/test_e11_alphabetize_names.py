@@ -1,4 +1,4 @@
-from e11_alphabetize_names import alphabetize_names, people
+from e11_alphabetize_names import alphabetize_names, PEOPLE
 
 
 def test_empty():
@@ -6,11 +6,11 @@ def test_empty():
 
 
 def test_with_people():
-    assert people[0]['last'] == 'Lerner'
-    assert people[1]['last'] == 'Trump'
-    assert people[2]['last'] == 'Putin'
+    assert PEOPLE[0]['last'] == 'Lerner'
+    assert PEOPLE[1]['last'] == 'Trump'
+    assert PEOPLE[2]['last'] == 'Putin'
 
-    output = alphabetize_names(people)
+    output = alphabetize_names(PEOPLE)
     assert output[0]['last'] == 'Lerner'
     assert output[1]['last'] == 'Putin'
     assert output[2]['last'] == 'Trump'

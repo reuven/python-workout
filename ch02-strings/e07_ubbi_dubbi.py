@@ -3,7 +3,9 @@
 
 
 def ubbi_dubbi():
-    """Ask the user to enter a word, and print the word's translation into Ubbi Dubbi."""
+    """Ask the user to enter a word,
+and print the word's translation into Ubbi Dubbi.
+"""
     word = input("Enter a word: ")
 
     output = []

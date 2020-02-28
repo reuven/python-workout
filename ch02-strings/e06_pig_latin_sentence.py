@@ -3,7 +3,9 @@
 
 
 def pl_sentence():
-    """Ask the user to enter lowercase, unpuncutated words. Print the sentence, translated into Pig Latin."""
+    """Ask the user to enter lowercase, unpuncutated words.
+Print the sentence, translated into Pig Latin.
+"""
     sentence = input("Enter a sentence: ")
 
     output = []

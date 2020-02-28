@@ -3,10 +3,12 @@
 
 
 def hex_output():
-    """Ask the user to enter a valid hexadecimal number, and print the decimal equivalent."""
+    """Ask the user to enter a valid hexadecimal
+number, and print the decimal equivalent.
+"""
 
-    d = 0
-    h = input("Enter a hex number to convert to decimal: ")
-    for power, digit in enumerate(reversed(h)):
-        d += int(digit, 16) * (16 ** power)
-    print(d)
+    decnum = 0
+    hexnum = input("Enter a hex number to convert: ")
+    for power, digit in enumerate(reversed(hexnum)):
+        decnum += int(digit, 16) * (16 ** power)
+    print(decnum)
