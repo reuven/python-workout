@@ -17,8 +17,8 @@ try again.
 """
     while True:
         option_string = '/'.join(sorted(options))
-        choice = input(f"Enter an option ({option_string}): ")
+        choice = input(f'Enter an option ({option_string}): ')
         if choice in options:
             return options[choice]()
 
-        print("Not a valid option")
+        print('Not a valid option')

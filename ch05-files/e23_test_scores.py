@@ -6,7 +6,7 @@ import glob
 
 scores = {}
 
-for filename in glob.glob("scores/*.json"):
+for filename in glob.glob('scores/*.json'):
     scores[filename] = {}
 
     with open(filename) as f:
@@ -23,4 +23,4 @@ for one_class in scores:
         average_score = float(sum(subject_scores)) / len(subject_scores)
 
         print(
-            f"\t{subject}: min {min_score}, max {max_score}, average {average_score}")
+            f'\t{subject}: min {min_score}, max {max_score}, average {average_score}')

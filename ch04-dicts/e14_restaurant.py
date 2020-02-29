@@ -7,7 +7,7 @@ menu = {'sandwich': 10, 'tea': 7, 'salad': 9}
 
 def restaurant():
     """Ask the user to enter their dining preferences, one by one, based
-on the global "menu" dict. 
+on the global "menu" dict.
 
 - If the user enters an empty string, stop asking and print the total bill.
 - If the user enters something on the menu (i.e., a key in "menu"), then
@@ -18,7 +18,7 @@ on the global "menu" dict.
 
     total = 0
     while True:
-        order = input("Order: ").strip()
+        order = input('Order: ').strip()
 
         if not order:
             break

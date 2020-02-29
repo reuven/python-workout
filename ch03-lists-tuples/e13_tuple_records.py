@@ -20,6 +20,7 @@ a float.)  We return a list of strings,
 sorted by last name and then first name.
 """
     output = []
+    template = '{1:10} {0:10} {2:5.2f}'
     for person in sorted(list_of_tuples, key=operator.itemgetter(1, 0)):
-        output.append("{1:10} {0:10} {2:5.2f}".format(*person))
+        output.append(templateq.format(*person))
     return output

@@ -12,7 +12,7 @@ class Animal():
         self.number_of_legs = number_of_legs
 
     def __repr__(self):
-        return f"{self.color} {self.species}, {self.number_of_legs} legs"
+        return f'{self.color} {self.species}, {self.number_of_legs} legs'
 
 
 class Wolf(Animal):

@@ -3,7 +3,7 @@
 
 
 def wc(filename):
-    """Accepts a filename as an argument. Prints the number of lines, 
+    """Accepts a filename as an argument. Prints the number of lines,
 characters, words (separated by whitespace) and different words
 (case sensitive) in the file."""
 
@@ -21,4 +21,4 @@ characters, words (separated by whitespace) and different words
 
     counts['unique words'] = len(unique_words)
     for key, value in counts.items():
-        print(f"{key}: {value}")
+        print(f'{key}: {value}')

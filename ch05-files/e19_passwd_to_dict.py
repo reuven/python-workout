@@ -11,7 +11,7 @@ returned as integers.
     users = {}
     with open(filename) as f:
         for line in f:
-            if not line.startswith("#") and line.strip():
-                user_info = line.split(":")
+            if not line.startswith('#') and line.strip():
+                user_info = line.split(':')
                 users[user_info[0]] = int(user_info[2])
     return users

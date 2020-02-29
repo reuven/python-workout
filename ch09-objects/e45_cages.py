@@ -16,7 +16,7 @@ class Cage():
             self.animals.append(one_animal)
 
     def __repr__(self):
-        output = f"Cage {self.id_number}\n"
+        output = f'Cage {self.id_number}\n'
         output += '\n'.join('\t' + str(animal)
                             for animal in self.animals)
         return output

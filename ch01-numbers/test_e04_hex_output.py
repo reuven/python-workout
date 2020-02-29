@@ -7,7 +7,7 @@ def test_no_input(monkeypatch, capsys):
     monkeypatch.setattr('sys.stdin', StringIO('\n'))
     hex_output()
     captured_out, captured_err = capsys.readouterr()
-    assert captured_out.endswith("0\n")
+    assert captured_out.endswith('0\n')
 
 
 def test_bad_input(monkeypatch, capsys):
@@ -25,4 +25,4 @@ def test_good_input(user_input, output, monkeypatch, capsys):
     monkeypatch.setattr('sys.stdin', StringIO(user_input + '\n'))
     hex_output()
     captured_out, captured_err = capsys.readouterr()
-    assert captured_out.endswith(f"{output}\n")
+    assert captured_out.endswith(f'{output}\n')
