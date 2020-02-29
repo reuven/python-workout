@@ -2,15 +2,15 @@
 """Solution to chapter 4, exercise 14: restaurant"""
 
 
-menu = {'sandwich': 10, 'tea': 7, 'salad': 9}
+MENU = {'sandwich': 10, 'tea': 7, 'salad': 9}
 
 
 def restaurant():
     """Ask the user to enter their dining preferences, one by one, based
-on the global "menu" dict.
+on the global "MENU" dict.
 
 - If the user enters an empty string, stop asking and print the total bill.
-- If the user enters something on the menu (i.e., a key in "menu"), then
+- If the user enters something on the menu (i.e., a key in "MENU"), then
   print the price and the total.
 - If the user enters something not on the menu, then tell them the item isn't
   available.
@@ -23,8 +23,8 @@ on the global "menu" dict.
         if not order:
             break
 
-        elif order in menu:
-            price = menu[order]
+        if order in MENU:
+            price = MENU[order]
             total += price
             print(f'{order} costs {price}, total is {total}')
 
