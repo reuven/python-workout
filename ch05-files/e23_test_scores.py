@@ -20,7 +20,8 @@ for one_class in scores:
     for subject, subject_scores in scores[one_class].items():
         min_score = min(subject_scores)
         max_score = max(subject_scores)
-        average_score = float(sum(subject_scores)) / len(subject_scores)
+        average_score = (sum(subject_scores) /
+                         len(subject_scores))
 
         print(
             f'\t{subject}: min {min_score}, max {max_score}, average {average_score}')
