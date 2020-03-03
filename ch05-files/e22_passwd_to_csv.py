@@ -5,8 +5,8 @@
 import csv
 
 
-def passwd_to_csv(passwd_file, csv_file):
-    with open(passwd_file) as passwd, open(csv_file, 'w') as output:
+def passwd_to_csv(passwd_filename, csv_filename):
+    with open(passwd_filename) as passwd, open(csv_filename, 'w') as output:
         r = csv.reader(passwd, delimiter=':')
         w = csv.writer(output, delimiter='\t')
         for record in r:
