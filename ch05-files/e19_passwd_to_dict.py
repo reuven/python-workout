@@ -11,7 +11,7 @@ returned as integers.
     users = {}
     with open(filename) as passwd:
         for line in passwd:
-            if not line.startswith('#') and line.strip():
+            if not line.startswith(('#', '\n')):
                 user_info = line.split(':')
                 users[user_info[0]] = int(user_info[2])
     return users
