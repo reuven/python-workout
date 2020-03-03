@@ -9,8 +9,8 @@ and the values are the user IDs from the file.  The user IDs should be
 returned as integers.
 """
     users = {}
-    with open(filename) as f:
-        for line in f:
+    with open(filename) as passwd:
+        for line in passwd:
             if not line.startswith('#') and line.strip():
                 user_info = line.split(':')
                 users[user_info[0]] = int(user_info[2])

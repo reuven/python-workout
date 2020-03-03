@@ -5,15 +5,23 @@ import json
 import glob
 
 
-def print_scores(glob_pattern):
+def print_scores(dirname):
+    """Takes the name of a directory containing
+one or more JSON files with a ".json" suffix.
+The files contain test scores in a variety of
+subjects.
+
+For each class, the function prints the min,
+max, and average score for each subject.
+"""
 
     scores = {}
 
-    for filename in glob.glob(glob_pattern):
+    for filename in glob.glob(f'{dirname}/*.json'):
         scores[filename] = {}
 
-        with open(filename) as f:
-            for result in json.load(f):
+        with open(filename) as infile:
+            for result in json.load(infile):
                 for subject, score in result.items():
                     scores[filename].setdefault(subject, [])
                     scores[filename][subject].append(score)
@@ -26,8 +34,7 @@ def print_scores(glob_pattern):
             average_score = (sum(subject_scores) /
                              len(subject_scores))
 
-            print(
-                f'\t{subject}: min {min_score}, max {max_score}, average {average_score}')
-
-
-print_scores('scores/*.json')
+            print(subject)
+            print(f'\tmin {min_score}')
+            print(f'\tmax {max_score}')
+            print(f'\taverage {average_score}')

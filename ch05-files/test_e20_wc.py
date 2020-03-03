@@ -1,4 +1,4 @@
-from e20_wc import wc
+from e20_wc import wordcount
 import pytest
 from io import StringIO
 
@@ -28,7 +28,7 @@ Wow!''')
 
 
 def test_empty(empty_file, capsys):
-    wc(empty_file)
+    wordcount(empty_file)
     captured_out, captured_err = capsys.readouterr()
     assert captured_out == """characters: 0
 words: 0
@@ -38,7 +38,7 @@ unique words: 0
 
 
 def test_simple(simple_file, capsys):
-    wc(simple_file)
+    wordcount(simple_file)
     captured_out, captured_err = capsys.readouterr()
     assert captured_out == """characters: 164
 words: 28
