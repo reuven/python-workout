@@ -1,0 +1,12 @@
+root	0
+daemon	1
+bin	2
+sys	3
+sync	4
+games	5
+man	6
+lp	7
+mail	8
+atara	1004
+shikma	1005
+amotz	1006

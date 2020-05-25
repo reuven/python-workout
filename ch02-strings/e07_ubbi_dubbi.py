@@ -4,7 +4,7 @@
 
 def ubbi_dubbi(word):
     """Ask the user to enter a word,
-and print the word's translation into Ubbi Dubbi.
+and return the word's translation into Ubbi Dubbi.
 """
     output = []
     for letter in word:
