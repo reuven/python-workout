@@ -1,4 +1,4 @@
-from e51_mychain import mychain
+from e50_mychain import mychain
 
 
 def test_empty():

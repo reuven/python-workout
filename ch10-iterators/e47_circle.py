@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""Solution to chapter 10, exercise 48: circle"""
+"""Solution to chapter 10, exercise 47: circle"""
 
 
 class CircleIterator():

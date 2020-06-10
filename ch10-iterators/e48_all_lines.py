@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""Solution to chapter 10, exercise 49: all_lines"""
+"""Solution to chapter 10, exercise 48: all_lines"""
 
 
 import os

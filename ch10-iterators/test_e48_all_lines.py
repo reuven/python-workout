@@ -1,4 +1,4 @@
-from e49_all_lines import all_lines
+from e48_all_lines import all_lines
 import pytest
 
 

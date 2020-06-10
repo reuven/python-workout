@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""Solution to chapter 10, exercise 50: elapsed_since"""
+"""Solution to chapter 10, exercise 49: elapsed_since"""
 
 import time
 

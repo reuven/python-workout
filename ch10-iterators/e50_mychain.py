@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""Solution to chapter 10, exercise 51: mychain"""
+"""Solution to chapter 10, exercise 50: mychain"""
 
 
 def mychain(*args):

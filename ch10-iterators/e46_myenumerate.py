@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""Solution to chapter 10, exercise 47: myenumerate"""
+"""Solution to chapter 10, exercise 46: myenumerate"""
 
 
 class MyEnumerate():
