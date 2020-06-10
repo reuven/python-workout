@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""Solution to chapter 9, exercise 45: cages"""
+"""Solution to chapter 9, exercise 44: cages"""
 
 
 class Cage():

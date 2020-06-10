@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""Solution to chapter 9, exercise 42: big bowl"""
+"""Solution to chapter 9, exercise 41: big bowl"""
 
 
 class Scoop():

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""Solution to chapter 9, exercise 39: scoop"""
+"""Solution to chapter 9, exercise 38: scoop"""
 
 
 class Scoop():

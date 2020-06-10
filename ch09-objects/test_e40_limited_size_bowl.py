@@ -1,4 +1,4 @@
-from e41_limited_size_bowl import Scoop, Bowl
+from e40_limited_size_bowl import Scoop, Bowl
 
 
 def test_basic():

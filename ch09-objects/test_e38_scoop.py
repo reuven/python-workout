@@ -1,4 +1,4 @@
-from e39_scoop import Scoop, create_scoops
+from e38_scoop import Scoop, create_scoops
 
 
 def test_scoop():

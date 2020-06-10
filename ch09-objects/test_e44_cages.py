@@ -1,5 +1,5 @@
-from e44_animals import Animal, Wolf, Sheep, Snake, Parrot
-from e45_cages import Cage
+from e43_animals import Animal, Wolf, Sheep, Snake, Parrot
+from e44_cages import Cage
 import pytest
 
 

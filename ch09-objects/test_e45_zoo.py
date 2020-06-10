@@ -1,6 +1,6 @@
-from e44_animals import Animal, Wolf, Sheep, Snake, Parrot
-from e45_cages import Cage
-from e46_zoo import Zoo
+from e43_animals import Animal, Wolf, Sheep, Snake, Parrot
+from e44_cages import Cage
+from e45_zoo import Zoo
 
 
 def test_zoo():

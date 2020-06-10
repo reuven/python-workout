@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""Solution to chapter 9, exercise 44: animals"""
+"""Solution to chapter 9, exercise 43: animals"""
 
 
 class Animal():

@@ -1,4 +1,4 @@
-from e42_bigbowl import Scoop, Bowl, BigBowl
+from e41_bigbowl import Scoop, Bowl, BigBowl
 
 
 def test_basic():

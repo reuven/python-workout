@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""Solution to chapter 9, exercise 46: zoo"""
+"""Solution to chapter 9, exercise 45: zoo"""
 
 
 class Zoo():

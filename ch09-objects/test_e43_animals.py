@@ -1,4 +1,4 @@
-from e44_animals import Animal, Wolf, Sheep, Snake, Parrot
+from e43_animals import Animal, Wolf, Sheep, Snake, Parrot
 import pytest
 
 
