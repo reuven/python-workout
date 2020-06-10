@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""Solution to chapter 8, exercise 37: freedonia"""
+"""Solution to chapter 8, exercise 36: freedonia"""
 
 RATES = {
     'Chico': 0.5,

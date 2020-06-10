@@ -1,0 +1,100 @@
+Adidas	orange	43
+Nike	black	41
+Adidas	black	39
+New Balance	pink	41
+Nike	white	44
+New Balance	orange	38
+Nike	pink	44
+Adidas	pink	44
+New Balance	orange	39
+New Balance	black	43
+New Balance	orange	44
+Nike	black	41
+Adidas	orange	37
+Adidas	black	38
+Adidas	pink	41
+Adidas	white	36
+Adidas	orange	36
+Nike	pink	41
+Adidas	pink	35
+New Balance	orange	37
+Nike	pink	43
+Nike	black	43
+Nike	black	42
+Nike	black	35
+Adidas	black	41
+New Balance	pink	40
+Adidas	white	35
+New Balance	pink	41
+New Balance	orange	41
+Adidas	orange	40
+New Balance	orange	40
+New Balance	white	44
+New Balance	pink	40
+Nike	black	43
+Nike	pink	36
+New Balance	white	39
+Nike	black	42
+Adidas	black	41
+New Balance	orange	40
+New Balance	black	40
+Nike	white	37
+Adidas	black	39
+Adidas	black	40
+Adidas	orange	38
+New Balance	orange	39
+Nike	black	35
+Adidas	white	39
+Nike	white	37
+Adidas	orange	37
+Adidas	pink	35
+New Balance	orange	41
+Nike	pink	44
+Nike	pink	38
+Adidas	black	39
+New Balance	white	35
+Nike	pink	40
+Nike	white	44
+Nike	orange	38
+Adidas	orange	42
+New Balance	orange	43
+Adidas	pink	39
+Adidas	pink	41
+Adidas	pink	39
+Nike	white	37
+Nike	orange	38
+Adidas	orange	39
+Nike	pink	40
+Adidas	white	36
+Nike	orange	40
+New Balance	pink	40
+New Balance	black	40
+New Balance	pink	40
+Adidas	pink	41
+Nike	pink	40
+Nike	black	41
+Nike	black	39
+New Balance	white	38
+Adidas	black	41
+Nike	orange	36
+Nike	black	38
+New Balance	black	40
+New Balance	pink	40
+Adidas	black	42
+Adidas	white	40
+New Balance	orange	38
+Nike	pink	41
+Adidas	orange	37
+Nike	black	44
+Adidas	pink	36
+Adidas	white	35
+Nike	black	38
+Nike	pink	42
+New Balance	black	43
+Nike	white	38
+New Balance	pink	39
+Nike	orange	39
+New Balance	orange	40
+New Balance	white	44
+Adidas	black	42
+Nike	black	35

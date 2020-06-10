@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 
-"""Solution to chapter 7, exercise 35: gematria_dict"""
+"""Solution to chapter 7, exercise 35a: gematria_dict"""
 
 import string
 
 
 def gematria_dict():
     """Function that returns a dictionary of ASCII values
-for all lowercsae letters. The keys are the letters, and
+for all lowercase letters. The keys are the letters, and
 the values are the numbers, starting with 1 for 'a'.
 """
     return {char: index

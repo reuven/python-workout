@@ -1,4 +1,4 @@
-from e38_menu import menu
+from e37_menu import menu
 from io import StringIO
 import pytest
 

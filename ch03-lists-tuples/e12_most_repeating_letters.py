@@ -22,4 +22,4 @@ more often than any letter in any other word.
 
 Because sorting in Python is stable, if multiple words have
 the same count, then the first will be returned."""
-    return sorted(words, key=most_repeating_letter_count, reverse=True)[0]
+    return max(words, key=most_repeating_letter_count)

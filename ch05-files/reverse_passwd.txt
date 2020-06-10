@@ -1,0 +1,110 @@
+##
+esabataD resU #
+#
+gninnur si metsys eht nehw ylno yltcerid detlusnoc si elif siht taht etoN #
+yb dedivorp si noitamrofni siht semit rehto tA  .edom resu-elgnis ni #
+.yrotceriD nepO #
+#
+tuoba noitamrofni lanoitidda rof egap nam )8(dyrotceridnepo eht eeS #
+.yrotceriD nepO #
+##
+eslaf/nib/rsu/:ytpme/rav/:resU degelivirpnU:2-:2-:*:ydobon
+hs/nib/:toor/rav/:rotartsinimdA metsyS:0:0:*:toor
+eslaf/nib/rsu/:toor/rav/:secivreS metsyS:1:1:*:nomead
+ocicuu/nibs/rsu/:pcuu/loops/rav/:locotorP ypoC xinU ot xinU:4:4:*:pcuu_
+eslaf/nib/rsu/:ytpme/rav/:nomeaD etaG ksaT:31:31:*:detagksat_
+eslaf/nib/rsu/:dkrowten/rav/:secivreS krowteN:42:42:*:dkrowten_
+eslaf/nib/rsu/:ytpme/rav/:tnatsissA llatsnI:52:52:*:tnatsissallatsni_
+eslaf/nib/rsu/:spuc/loops/rav/:secivreS gnitnirP:62:62:*:pl_
+eslaf/nib/rsu/:xiftsop/loops/rav/:revreS liaM xiftsoP:72:72:*:xiftsop_
+eslaf/nib/rsu/:ytpme/rav/:ecivreS noitarugifnoC ecivreS:13:13:*:dscs_
+eslaf/nib/rsu/:ytpme/rav/:ecivreS tnemllornE etacifitreC:23:23:*:sec_
+eslaf/nib/rsu/:erotsppa/bd/rav/:ecivreS erotS ppA caM:33:33:*:erotsppa_
+eslaf/nib/rsu/:ytpme/rav/:hcnuaLppA XCM:45:45:*:rlaxcm_
+eslaf/nib/rsu/:ytpme/rav/:nomeaD stnevEelppA:55:55:*:stneveelppa_
+eslaf/nib/rsu/:doeg/bd/rav/:nomeaD secivreS oeG:65:65:*:doeg_
+eslaf/nib/rsu/:ytpme/rav/:noitatnemucoD repoleveD:95:95:*:scodved_
+eslaf/nib/rsu/:ytpme/rav/:tlebtaeS:06:06:*:xobdnas_
+eslaf/nib/rsu/:ytpme/rav/:rednopseRSNDm:56:56:*:rednopsersndm_
+eslaf/nib/rsu/:ytpme/rav/:potkseD etomeR elppA:76:76:*:dra_
+eslaf/nib/rsu/:revreSbeW/yrarbiL/:revreS beW ediW dlroW:07:07:*:www_
+eslaf/nib/rsu/:ytpme/rav/:resU stnevE elppA:17:17:*:cppe_
+eslaf/nib/rsu/:ytpme/rav/:revreS SVC:27:27:*:svc_
+eslaf/nib/rsu/:ytpme/rav/:revreS NVS:37:37:*:nvs_
+eslaf/nib/rsu/:ytpme/rav/:revreS LQSyM:47:47:*:lqsym_
+eslaf/nib/rsu/:ytpme/rav/:noitarapes egelivirP dhss:57:57:*:dhss_
+eslaf/nib/rsu/:ytpme/rav/:revreS gnimaertS emiTkciuQ:67:67:*:sstq_
+eslaf/nib/rsu/:pami/rav/:rotartsinimdA suryC:6:77:*:suryc_
+eslaf/nib/rsu/:ytpme/rav/:revreS tsiL namliaM:87:87:*:namliam_
+eslaf/nib/rsu/:ytpme/rav/:revreS noitacilppA:97:97:*:revresppa_
+eslaf/nib/rsu/:sliamsuriv/rav/:nomeaD VAmalC:28:28:*:vamalc_
+eslaf/nib/rsu/:sliamsuriv/rav/:nomeaD SiVaMA:38:38:*:dsivama_
+eslaf/nib/rsu/:ytpme/rav/:revreS PPMX rebbaJ:48:48:*:rebbaj_
+eslaf/nib/rsu/:ytpme/rav/:renwO noitacilppA:78:78:*:renwoppa_
+eslaf/nib/rsu/:ytpme/rav/:revreSwodniW:88:88:*:revreswodniw_
+eslaf/nib/rsu/:ytpme/rav/:thgiltopS:98:98:*:thgiltops_
+eslaf/nib/rsu/:ytpme/rav/:nomeaD nekoT:19:19:*:dnekot_
+eslaf/nib/rsu/:tnegaytiruces/bd/rav/:tnegAytiruceS:29:29:*:tnegaytiruces_
+eslaf/nib/rsu/:ytpme/rav/:radnelaC:39:39:*:radnelac_
+eslaf/nib/rsu/:revressmaet/rav/:revreSsmaeT:49:49:*:revressmaet_
+eslaf/nib/rsu/:ytpme/rav/:gnirahS etadpU:2-:59:*:gnirahs_etadpu_
+eslaf/nib/rsu/:ytpme/rav/:rellatsnI:2-:69:*:rellatsni_
+eslaf/nib/rsu/:ytpme/rav/:revreS STA:79:79:*:revressta_
+eslaf/nib/rsu/:ytpme/rav/:nomeaD PTF:2-:89:*:ptf_
+eslaf/nib/rsu/:ytpme/rav/:resU nwonknU:99:99:*:nwonknu_
+eslaf/nib/rsu/:etadpuerawtfos/bd/rav/:ecivreS etadpU erawtfoS:002:002:*:etadpuerawtfos_
+eslaf/nib/rsu/:ytpme/rav/:nomeaD oiduA eroC:202:202:*:doiduaeroc_
+eslaf/nib/rsu/:ytpme/rav/:revasneercS:302:302:*:revasneercs_
+eslaf/nib/rsu/:dnoitacol/bd/rav/:nomeaD noitacoL:502:502:*:dnoitacol_
+eslaf/nib/rsu/:ytpme/rav/:tnegA noitaulavE tsurT:802:802:*:tneganoitaulavetsurt_
+eslaf/nib/rsu/:ytpme/rav/:nomeaDenoZemiTotuA:012:012:*:enozemit_
+eslaf/nib/rsu/:ytpme/rav/:tnegA yrevileD lacoL:112:112:*:adl_
+eslaf/nib/rsu/:ytpme/rav/:tooR SMVC:212:212:*:toorsmvc_
+eslaf/nib/rsu/:nwodkcol/bd/rav/:repleH eciveD SO enohPi:312:312:*:dxumbsu_
+eslaf/nib/rsu/:ytpme/rav/:rotartsinimdA tocevoD:6:412:*:tocevod_
+eslaf/nib/rsu/:ytpme/rav/:oiduA PD:512:512:*:oiduapd_
+eslaf/nib/rsu/:ytpme/rav/:revreS LQSergtsoP:612:612:*:sergtsop_
+eslaf/nib/rsu/:ytpme/rav/:tekciT gnitnarG tekciT sorebreK:2-:712:*:tgtbrk_
+eslaf/nib/rsu/:ytpme/rav/:ecivreS nimdA sorebreK:2-:812:*:nimda_nimdak_
+eslaf/nib/rsu/:ytpme/rav/:ecivreS drowssaP egnahC sorebreK:2-:912:*:wpegnahc_nimdak_
+eslaf/nib/rsu/:ytpme/rav/:revreS tnemeganaM eciveD:022:022:*:rgmecived_
+eslaf/nib/rsu/:ytpme/rav/:revreS htuA beW:122:122:*:revreshtuabew_
+eslaf/nib/rsu/:ytpme/rav/:SOIBteN:222:222:*:soibten_
+eslaf/nib/rsu/:ytpme/rav/:nomeaD mraW:422:422:*:dmraw_
+eslaf/nib/rsu/:ytpme/rav/:noitacitnehtuA tocevoD:722:722:*:llunevod_
+eslaf/nib/rsu/:ytpme/rav/:nomeaD scitsitatS krowteN:822:822:*:scitsitatsten_
+eslaf/nib/rsu/:ytpme/rav/:nomeaD eciveD BVA tenrehtE:2-:922:*:decivedbva_
+eslaf/nib/rsu/:ytpme/rav/:tekciT gnitnarG tekciT sorebreK yrotceriD nepO:2-:032:*:tgtbrk_brk_
+eslaf/nib/rsu/:ytpme/rav/:ecivreS nimdA sorebreK yrotceriD nepO:2-:132:*:nimdak_brk_
+eslaf/nib/rsu/:ytpme/rav/:ecivreS drowssaP egnahC sorebreK yrotceriD nepO:2-:232:*:wpegnahc_brk_
+eslaf/nib/rsu/:ytpme/rav/:sorebreK yrotceriD nepO:2-:332:*:sorebrek_brk_
+eslaf/nib/rsu/:ytpme/rav/:suomynonA sorebreK yrotceriD nepO:2-:432:*:suomynona_brk_
+eslaf/nib/rsu/:ytpme/rav/:ecivreS ehcaC tessA:532:532:*:ehcactessa_
+eslaf/nib/rsu/:ytpme/rav/:nomeaD OI aideM eroC:632:632:*:doiaidemeroc_
+eslaf/nib/rsu/:ytpme/rav/:dsecivreshcnual_:932:932:*:dsecivreshcnual_
+eslaf/nib/rsu/:ytpme/rav/:secivreSnocI:042:042:*:secivresnoci_
+eslaf/nib/rsu/:ytpme/rav/:etoNtsiD:142:142:*:etontsid_
+eslaf/nib/rsu/:dnoisseslrusn/bd/rav/:nomeaD noisseSLRUSN:242:242:*:dnoisseslrusn_
+eslaf/nib/rsu/:degarotslrusn/bd/rav/:nomeaD egarotSLRUSN:342:342:*:degarotslrusn_
+eslaf/nib/rsu/:ytpme/rav/:nomeaD yciloP yalpsiD:442:442:*:dycilopyalpsid_
+eslaf/nib/rsu/:sirtsa/bd/rav/:secivreS sirtsA:542:542:*:sirtsa_
+eslaf/nib/rsu/:ytpme/rav/:tnuoccA TSAF sorebreK:2-:642:*:tsafbrk_
+eslaf/nib/rsu/:ytpme/rav/:nomeaD rellortnoC emaG:742:742:*:drellortnocemag_
+hsab/nib/:putes/rav/:resU puteS:842:842:*:resuputesbm_
+eslaf/nib/rsu/:dnamedno/bd/rav/:nomeaD ecruoseR dnameD nO:942:942:*:dnamedno_
+eslaf/nib/rsu/:ytpme/rav/:ecivreS stnemucoD revreS SOcam:152:152:*:scodrevresx_
+eslaf/nib/rsu/:ytpme/rav/:yxorP WWW:252:252:*:yxorpwww_
+eslaf/nib/rsu/:am/rav/:resU tessAeliboM:352:352:*:tessaelibom_
+eslaf/nib/rsu/:ecivedymdnif/bd/rav/:nomeaD eciveD yM dniF:452:452:*:ecivedymdnif_
+eslaf/nib/rsu/:srotcetedatad/bd/rav/:srotceteDataD:752:752:*:srotcetedatad_
+eslaf/nib/rsu/:ytpme/rav/:tnegaevitpac:852:852:*:tnegaevitpac_
+eslaf/nib/rsu/:ytpme/rav/:tnuoccA dktc:952:952:*:dktc_
+eslaf/nib/rsu/:yapelppa/bd/rav/:tnuoccA yapelppa:062:062:*:yapelppa_
+eslaf/nib/rsu/:ddih/bd/rav/:resU ecivreS DIH:162:162:*:ddih_
+eslaf/nib/rsu/:stnatsissaladoimc/bd/rav/:resU stnatsissA OI aideMeroC:262:262:*:stnatsissaladoimc_
+eslaf/nib/rsu/:dscitylana/bd/rav/:nomeaD scitylanA:362:362:*:dscitylana_
+eslaf/nib/rsu/:dspf/bd/rav/:nomeaD SPF:562:562:*:dspf_
+eslaf/nib/rsu/:demit/bd/rav/:nomeaD cnyS emiT:662:662:*:demit_
+eslaf/nib/rsu/:dybraen/bd/rav/:nomeaD gnignaR dna ytimixorP:862:862:*:dybraen_
+eslaf/nib/rsu/:noitpecxeyromemtroper/bd/rav/:noitpecxEyromeMtropeR:962:962:*:noitpecxeyromemtroper_
+eslaf/nib/rsu/:ytpme/rav/:tiKrevirD:072:072:*:tikrevird_

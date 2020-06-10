@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""Solution to chapter 8, exercise 38: menu"""
+"""Solution to chapter 8, exercise 37: menu"""
 
 
 def menu(**options):

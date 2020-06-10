@@ -9,7 +9,7 @@ def calc(to_solve):
     """This function expects to get a string containing a
 two-argument math expression in prefix notation, and with
 whitespace separating the operator and numbers.
-The return value is the result from invoking this function.
+The return value is the result from invoking this operation.
 """
 
     operations = {'+': operator.add,

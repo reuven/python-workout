@@ -1,0 +1,11 @@
+This is a test file.
+
+It contains 28 words and 20 different words.
+
+It also contains 165 characters.
+
+It also contains 11 lines.
+
+It is also self-referential.
+
+Wow!

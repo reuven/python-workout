@@ -1,0 +1,55 @@
+# This is a comment
+# You should ignore me
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+
+
+
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+syslog:x:101:104::/home/syslog:/bin/false
+messagebus:x:102:106::/var/run/dbus:/bin/false
+landscape:x:103:109::/var/lib/landscape:/bin/false
+jci:x:955:955::/home/jci:/bin/bash
+sshd:x:104:65534::/var/run/sshd:/usr/sbin/nologin
+user:x:1000:1000:user,,,:/home/user:/bin/bash
+reuven:x:1001:1001:Reuven M. Lerner,,,:/home/reuven:/bin/bash
+postfix:x:105:113::/var/spool/postfix:/bin/false
+colord:x:106:116:colord colour management daemon,,,:/var/lib/colord:/bin/false
+postgres:x:107:117:PostgreSQL administrator,,,:/var/lib/postgresql:/bin/bash
+dovecot:x:108:119:Dovecot mail server,,,:/usr/lib/dovecot:/bin/false
+dovenull:x:109:120:Dovecot login user,,,:/nonexistent:/bin/false
+postgrey:x:110:121::/var/lib/postgrey:/bin/false
+debian-spamd:x:111:122::/var/lib/spamassassin:/bin/sh
+memcache:x:113:124:Memcached,,,:/nonexistent:/bin/false
+genadi:x:1002:1003:Genadi Reznichenko,,,:/home/genadi:/bin/bash
+shira:x:1003:1004:Shira Friedman,,,:/home/shira:/bin/bash
+atara:x:1004:1005:Atara Lerner-Friedman,,,:/home/atara:/bin/bash
+shikma:x:1005:1006:Shikma Lerner-Friedman,,,:/home/shikma:/bin/bash
+amotz:x:1006:1007:Amotz Lerner-Friedman,,,:/home/amotz:/bin/bash
+mysql:x:114:125:MySQL Server,,,:/nonexistent:/bin/false
+clamav:x:115:126::/var/lib/clamav:/bin/false
+amavis:x:116:127:AMaViS system user,,,:/var/lib/amavis:/bin/sh
+opendkim:x:117:128::/var/run/opendkim:/bin/false
+gitlab-redis:x:999:1009::/var/opt/gitlab/redis:/bin/nologin
+gitlab-psql:x:998:1010::/var/opt/gitlab/postgresql:/bin/sh
+git:x:1007:1008:GitLab,,,:/home/git:/bin/bash
+opendmarc:x:118:129::/var/run/opendmarc:/bin/false
+dkim-milter-python:x:119:130::/var/run/dkim-milter-python:/bin/false
+deploy:x:1008:1011:Deploy,,,:/home/deploy:/bin/bash
+redis:x:112:123:redis server,,,:/var/lib/redis:/bin/false

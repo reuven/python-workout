@@ -1,4 +1,4 @@
-from e37_freedonia import time_percentage, calculate_tax
+from e36_freedonia import time_percentage, calculate_tax
 import pytest
 from math import isclose
 
