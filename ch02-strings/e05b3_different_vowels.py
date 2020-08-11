@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """Solution to chapter 2, exercise 5, beyond 3: Pig Latin, different vowels"""
 
-import string
-
 
 def pig_latin_multivowels(word):
     """Our test for moving the

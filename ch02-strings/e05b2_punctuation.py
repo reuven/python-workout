@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """Solution to chapter 2, exercise 5, beyond 2: Pig Latin, handle punctuation"""
 
-import string
-
 
 def pig_latin_punctuated(word):
     """Translates a word into Pig Latin.
