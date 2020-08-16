@@ -2,7 +2,6 @@
 """Solution to chapter 3, exercise 12: most_repeating_word"""
 
 from collections import Counter
-import operator
 
 WORDS = ['this', 'is', 'an', 'elementary', 'test', 'example']
 
