@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Solution to chapter 3, exercise 13, beyond 3: namedtuple_records"""
+"""Solution to chapter 3, exercise 13, beyond 1: namedtuple_records"""
 
 
 import operator
