@@ -17,5 +17,4 @@ Sums those objects that are integers or can be
 turned into integers.
 """
 
-    return sum(is_instable(one_item)
-               for one_item in items)
+    return sum(one_item for one_item in items if is_intable(one_item))
