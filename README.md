@@ -1,8 +1,8 @@
 # Code files from "Python Workout"
 
-My new book, "Python Workout" (https://PythonWorkout.com/) contains 50 exercises that help to improve your Python fluency.  This repository contains the code and solutions to those exercises.
+My book, "Python Workout" (https://PythonWorkout.com/) contains 50 exercises that help to improve your Python fluency.  This repository contains the code and solutions to those exercises, including all of the "beyond the exercise" additional, bonus exercises.
 
-It will soon (I hope!) also contain the code for the "beyond the exercise" questions. I'm working hard to get those done, as well; they will likely not have "pytest" tests, at least at first.
+The main exercises have "pytest" tests, while the "beyond" exercises don't.
 
 While you're welcome to look at this code, you should *NOT* look at it before you work on a solution by yourself! You'll learn the most by actually putting in the work, and trying to solve the problems. Looking at the answer isn't nearly as useful to your learning.
 
