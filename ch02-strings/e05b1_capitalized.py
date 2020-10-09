@@ -14,8 +14,8 @@ should be, as well.
 """
     if word[0].lower() in 'aeiou':
         output = f'{word}way'
-
-    output = f'{word[1:]}{word[0]}ay'
+    else:
+        output = f'{word[1:]}{word[0]}ay'
 
     if word[0] in string.ascii_uppercase:
         output = output.capitalize()
