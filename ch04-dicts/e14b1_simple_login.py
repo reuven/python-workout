@@ -2,7 +2,7 @@
 """Solution to chapter 4, exercise 14: beyond 1: simple_login"""
 
 
-USERS = {'root': 1234, 'ceo': '!!!!!', 'reuven': 'GrEaTpW?'}
+USERS = {'root': '1234', 'ceo': '!!!!!', 'reuven': 'GrEaTpW?'}
 
 
 def login():
