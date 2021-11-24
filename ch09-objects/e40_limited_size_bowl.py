@@ -30,8 +30,8 @@ You can add one or more scoops with the "add_scoops" method.
 
     def add_scoops(self, *new_scoops):
         """Add one or more scoops to the bowl"""
-        for one_scoop in new_scoops:
-            if len(self.scoops) < Bowl.max_scoops:
+        if len(self.scoops) < Bowl.max_scoops:
+            for one_scoop in new_scoops:
                 self.scoops.append(one_scoop)
 
     def __repr__(self):
