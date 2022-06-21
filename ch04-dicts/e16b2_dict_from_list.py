@@ -13,3 +13,12 @@ def dict_from_list(*args):
         args = args[2:]
 
     return output
+
+# Other Method
+def make_dict(*args):
+	output = {}
+	count = 1
+	for k in args[0::2]:
+		output[k] = args[count]
+		count += 2
+	return output
