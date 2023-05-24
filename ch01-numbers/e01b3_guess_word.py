@@ -16,7 +16,7 @@ earlier or later in the dictionary.
     answer = random.choice(WORDS)
 
     while True:
-        user_guess = int(input('What is your guess? '))
+        user_guess = input('What is your guess? ')
 
         if user_guess == answer:
             print(f'Right!  The answer is {user_guess}')
