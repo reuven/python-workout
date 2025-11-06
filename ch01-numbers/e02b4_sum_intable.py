@@ -1,22 +1,14 @@
 #!/usr/bin/env python3
-"""Solution to chapter 1, exercise 2, beyond 4: sum intable"""
+# Solution to chapter 1, exercise 2, beyond 4: sum intable
+# Write a function that takes a list of Python objects. Sum the objects that either
+# are integers or can be turned into integers, ignoring the others.
 
-
-def is_intable(one_item):
-    try:
-        int(one_item)
-        return True
-    except ValueError:
-        return False
-
-
-def sum_intable(items):
-    """Accepts a list of Python objects.
-
-Sums those objects that are integers or can be
-turned into integers.
-"""
-
-    return sum(one_item
-               for one_item in items
-               if is_intable(one_item))
+def sum_ignore(liste: list):
+    total = 0
+    for number in liste:
+        try:
+            valeur = int(number)
+            total += valeur
+        except (ValueError, TypeError):
+            continue
+    return total
