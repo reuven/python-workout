@@ -7,7 +7,7 @@ def pig_latin_multivowels(word):
 first letter to the end is whether
 the word contains two or more different vowels.
 """
-    number_of_vowels = len(set(word) & set('aeiou'))
+    number_of_vowels = len(set(word.lower) & set('aeiou')) # Adding .lower() makes the code more robust by including potential capital letters.
 
     if number_of_vowels > 1:
         return f'{word}way'
