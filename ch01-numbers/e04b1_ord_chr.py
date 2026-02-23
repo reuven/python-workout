@@ -9,11 +9,15 @@ and print the decimal equivalent.
 
     decnum = 0
     hexnum = input('Enter a hex number to convert: ')
+    ord_0 = ord('0')
+    ord_a_minus_10 = ord('a') - 10
     for power, digit in enumerate(reversed(hexnum)):
-        if 48 <= ord(digit) <= 57:
-            dec_digit = ord(digit) - 48
-        elif 97 <= ord(digit) <= 102:
-            dec_digit = ord(digit) - 87
+        if '0' <= digit <= '9':
+            dec_digit = ord(digit) - ord_0
+        elif 'a' <= digit.lower() <= 'z':
+            dec_digit = ord(digit.lower()) - ord_a_minus_10
 
         decnum += dec_digit * (16 ** power)
     print(decnum)
+
+ord_hex_output()
