@@ -8,5 +8,4 @@ words, return a string with the same words, separated
 by commas, but sorted.
 """
 
-    return ', '.join(one_word
-                     for one_word in sorted(s.split()))
+    return ', '.join(sorted(s.split()))
