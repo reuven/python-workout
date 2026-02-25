@@ -9,9 +9,7 @@ in that file.
 """
     output = ''
     for one_line in open(filename):
-        for one_word in one_line.split():
-            if not one_word.isalpha():
-                continue
-            if one_word > output:
-                output = one_word
+        split_line=one_line.split()
+        split_line.append(output)
+        output=max(split_line)
     return output
