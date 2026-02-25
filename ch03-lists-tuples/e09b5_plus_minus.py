@@ -10,12 +10,4 @@ of alternately adding and subtracting them.
     if not numbers:
         return 0
 
-    total = numbers.pop(0)
-
-    while numbers:
-        total += numbers.pop(0)
-
-        if numbers:
-            total -= numbers.pop(0)
-
-    return total
+    return numbers[0]+sum(numbers[1::2])-sum(numbers[2::2])
