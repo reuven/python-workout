@@ -3,11 +3,7 @@
 
 
 def by_vowel_count(one_word):
-    total = 0
-    for one_character in one_word.lower():
-        if one_character in 'aeiou':
-            total += 1
-    return total
+    return len(set(one_word.lower()) & set('aeiou'))
 
 
 def sort_by_vowel_count(words):
