@@ -2,7 +2,7 @@
 """Solution to chapter 3, exercise 12, beyond 3: shells_and_users"""
 
 from collections import defaultdict
-
+import operator
 
 def shells_and_users_by_popularity(filename):
     shells = defaultdict(list)
@@ -14,4 +14,8 @@ def shells_and_users_by_popularity(filename):
 
         shells[shell].append(username)
 
-    return sorted(shells.items(), key=len)
+    # sort usernames for each shell:
+    for shell in shells:
+        shells[shell] = sorted(shells[shell])
+
+    return sorted(shells.items(), key=lambda s: len(s[1]), reverse=True)
