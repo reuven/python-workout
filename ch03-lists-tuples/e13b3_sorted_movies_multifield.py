@@ -33,7 +33,7 @@ def sort_movies_multifield():
         template = '{0:30} {1:3} {2:20}'
         for one_movie in sorted(MOVIES, key=operator.itemgetter(*[FIELDS[field_name]
                                                                   for field_name in sort_by])):
-            output.append(template.format(*one_movie))
+            output.append(template.format(**one_movie))
         return output
 
     print(f'No such field {sort_by}')

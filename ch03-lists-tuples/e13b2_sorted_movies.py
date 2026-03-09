@@ -29,7 +29,7 @@ def sort_movies():
         output = []
         template = '{0:30} {1:3} {2:20}'
         for one_movie in sorted(MOVIES, key=operator.itemgetter(FIELDS[sort_by])):
-            output.append(template.format(*one_movie))
+            output.append(template.format(**one_movie))
         return output
 
     print(f'No such field {sort_by}')
