@@ -13,6 +13,6 @@ def json_passwd(filename):
         if one_line.strip().startswith('\n'):
             continue
 
-        output.append(tuple(one_line.split(':')))
+        output.append(tuple(one_line.strip().split(':')))
 
     return json.dumps(output)
