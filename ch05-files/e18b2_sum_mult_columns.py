@@ -13,12 +13,7 @@ def sum_mult_columns(filename):
 
         first, second = fields
 
-        if not first.isdigit():
-            continue
-
-        if not second.isdigit():
-            continue
-
-        total += int(first) * int(second)
+        if all(i.isdigit() for i in fields):
+            total += int(first) * int(second)
 
     return total
