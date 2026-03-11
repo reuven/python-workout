@@ -5,9 +5,9 @@
 import csv
 
 
-def passwd_to_csv(passwd_filename, csv_filename, fields_to_pass='1 2', delimiter='\t'):
+def passwd_to_csv(passwd_filename, csv_filename, fields_to_pass='0 2', delimiter='\t'):
     fields_to_pass = [int(one_item)
-                      for one_item in fields_to_pass]
+                      for one_item in fields_to_pass.split()]
 
     with open(passwd_filename) as passwd, open(csv_filename, 'w') as output:
         infile = csv.reader(passwd, delimiter=':')
@@ -15,8 +15,4 @@ def passwd_to_csv(passwd_filename, csv_filename, fields_to_pass='1 2', delimiter
         for record in infile:
 
             if len(record) > 1:
-                fields = [one_field
-                          for index, one_field in enumerate(record)
-                          if index in fields_to_pass]
-
-                outfile.writerow(*fields)
+                outfile.writerow((record[i] for i in fields_to_pass))
