@@ -15,6 +15,6 @@ def json_passwd_dict(filename):
         if one_line.strip().startswith('\n'):
             continue
 
-        output.append(dict(zip(fields, one_line.split(':'))))
+        output.append(dict(zip(fields, one_line.strip().split(':'))))
 
     return json.dumps(output)
