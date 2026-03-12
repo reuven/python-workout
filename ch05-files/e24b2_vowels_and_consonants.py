@@ -12,3 +12,5 @@ def vowels_and_consonants(infilename, vowel_filename, consonant_filename):
                     vowel_out.write(one_character)
                 elif one_character.lower() in string.ascii_lowercase:
                     consonant_out.write(one_character)
+            vowel_out.write('\n')
+            consonant_out.write('\n')
