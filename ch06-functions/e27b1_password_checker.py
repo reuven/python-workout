@@ -6,31 +6,27 @@ import string
 
 
 def create_password_checker(min_uppercase, min_lowercase, min_punctuation, min_digits):
-    uppercase_set = set(string.ascii_uppercase)
-    lowercase_set = set(string.ascii_lowercase)
-    punctuation_set = set(string.punctuation)
-    digits_set = set(string.digits)
 
     def check_password(password):
 
         if len([one_character
                 for one_character in password
-                if one_character in uppercase_set]) < min_uppercase:
+                if one_character in string.ascii_uppercase]) < min_uppercase:
             print(f'Not enough uppercase letters; min is {min_uppercase}')
             return False
         elif len([one_character
                   for one_character in password
-                  if one_character in lowercase_set]) < min_lowercase:
+                  if one_character in string.ascii_lowercase]) < min_lowercase:
             print(f'Not enough lowercase letters; min is {min_lowercase}')
             return False
         elif len([one_character
                   for one_character in password
-                  if one_character in punctuation_set]) < min_punctuation:
+                  if one_character in string.punctuation]) < min_punctuation:
             print(f'Not enough punctuation; min is {min_punctuation}')
             return False
         elif len([one_character
                   for one_character in password
-                  if one_character in digits_set]) < min_digits:
+                  if one_character in string.digits]) < min_digits:
             print(f'Not enough digits; min is {min_digits}')
             return False
         else:
