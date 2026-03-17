@@ -4,9 +4,4 @@
 
 
 def fromkeys_func(s, func):
-    output = {}
-
-    for one_item in s:
-        output[one_item] = func(one_item)
-
-    return output
+    return {key: func(key) for key in s}
