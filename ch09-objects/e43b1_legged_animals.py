@@ -15,46 +15,22 @@ class Animal():
 
 
 class TwoLeggedAnimal(Animal):
-    def __init__(self, color):
-        super().__init__(color)
-        self.number_of_legs = 2
-
+    number_of_legs = 2
 
 class FourLeggedAnimal(Animal):
-    def __init__(self, color):
-        super().__init__(color)
-        self.number_of_legs = 4
-
+    number_of_legs = 4
 
 class ZeroLeggedAnimal(Animal):
-    def __init__(self, color):
-        super().__init__(color)
-        self.number_of_legs = 0
-
+    number_of_legs = 0
 
 class Wolf(FourLeggedAnimal):
     """Class for creating 4-legged wolves of any color"""
 
-    def __init__(self, color):
-        super().__init__(color)
-
-
 class Sheep(FourLeggedAnimal):
     """Class for creating 4-legged sheep of any color"""
-
-    def __init__(self, color):
-        super().__init__(color)
-
 
 class Snake(ZeroLeggedAnimal):
     """Class for creating 0-legged snakes of any color"""
 
-    def __init__(self, color):
-        super().__init__(color)
-
-
 class Parrot(TwoLeggedAnimal):
     """Class for creating 2-legged parrots of any color"""
-
-    def __init__(self, color):
-        super().__init__(color)
