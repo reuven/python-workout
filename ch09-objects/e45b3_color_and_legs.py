@@ -76,5 +76,4 @@ class Zoo():
         return [one_animal
                 for one_cage in self.cages
                 for one_animal in one_cage.animals
-                if (('color' in kwargs and one_animal.color == kwargs['color']) and
-                    ('legs' in kwargs and one_animal.number_of_legs == kwargs['legs']))]
+                if all(key in vars(one_animal) and getattr(one_animal,key) == kwargs[key] for key in kwargs)]
