@@ -4,8 +4,6 @@
 
 
 def my_enumerate(data, start=0):
-    index = start
 
-    for one_item in data:
+    for index,one_item in zip(range(start,start+len(data)), data):
         yield (index, one_item)
-        index += 1
