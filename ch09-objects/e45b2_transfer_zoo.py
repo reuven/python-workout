@@ -91,6 +91,8 @@ class Zoo():
     def transfer_animal(self, target_zoo, species):
         for one_cage in self.cages:
             for one_animal in one_cage.animals:
+                print(f'iterating on {one_animal}')
                 if isinstance(one_animal, species):
-                    one_cage.remove(one_animal)
+                    one_cage.animals.remove(one_animal)
                     target_zoo.cages[0].add_animals(one_animal)
+                    return
